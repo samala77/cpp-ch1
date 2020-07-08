@@ -1,3 +1,4 @@
+//program to find size of data types
 #include <iostream>
 using namespace std;
 
@@ -9,4 +10,18 @@ int main()
     cout << "Size of double: " << sizeof(double) << " bytes" << endl;
 
     return 0;
+}
+
+//program to find product of two numbers
+#include<iostream>
+using namespace std;
+int main()
+
+{
+   float a,b,c;
+    cout<<"enter two numbers:";// cout << "Enter two numbers: ";
+    cin>>a>>b;
+    c=a*b;
+    cout<<"product="<<c;
+    return  0;
 }
